@@ -1,0 +1,288 @@
+body{
+	font-family: "Century Gothic", Arial;
+
+}
+#outercontainer{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#container{
+	text-align:center;
+}
+
+#content2{
+	margin-left: 200px;
+}
+input{
+	width: 400px;
+	height: 30px;
+}
+.main-label{
+				font-weight: bold;
+				width: 200px;
+				display: block;
+				margin-right: 10px;
+
+}
+
+#header{
+	height: 100px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#logo img {
+	float: left;
+	width: 120px;
+	height: 120px;
+	margin-right: 10px;
+
+}
+#name{
+	font-size: 48px;
+	float: left;
+	padding-top: 30px;
+	margin-left: 5px;
+}
+#nav-wrapper{
+	height: 50px;
+}
+#navbar{
+			width: 900px; 
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 18px;
+			display: block;
+
+}
+#navbar ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+}
+
+hr{
+	width: 900px;
+}
+
+h2{
+	text-decoration: underline;
+}
+h1{
+	text-align: center;
+	font-size: 42px;
+	color:teal;
+
+}
+
+#navbar li{
+	float: left; 
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#navbar a {
+			color: mediumturquoise;
+			text-decoration: none;
+			display: block;
+			width: 150px;			
+}
+
+#navbar a:hover{
+	color: teal;
+	
+}
+
+#navbar ul ul {
+	position: absolute;
+	top:50px;
+	visibility: hidden; 
+
+}
+
+#navbar li:hover > ul{ 
+	visibility: visible;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	z-index: 1;
+}
+
+.clear{
+	clear: both;
+}
+
+#content{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#headshot img{
+	width: 230px;
+	float: left;
+	padding: 10px;
+	filter: grayscale(10%);
+	z-index: -1;
+	border-radius: 25px;
+
+}
+#text{
+	width: 530px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	font-size: 20px;
+	padding: 10px;
+	line-height: 25px;
+}
+
+#text a{
+	text-decoration: none;
+	font-family: helvetica;
+	font-weight: bold;
+}
+#text li{
+	font-size: 16px;
+	list-style-type: none;
+}
+#text li a{
+	text-decoration: none;
+	color: black;
+}
+#video{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 15px;
+}
+iframe{
+	width: 900px;
+}
+
+#resume iframe{
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#carousel{
+	position: relative;
+}
+.slick-slide{
+  margin:10px;
+}
+.slick-slide img{
+  width:100%;
+  border: 2px solid #fff;
+}
+#design1{
+	width: 900px;
+	height: 400px;
+}
+#design2{
+	width: 300px;
+	height: 400px;
+}
+#design3{
+	width: 700px;
+	height: 400px;
+}
+#design4{
+	width: 300px;
+	height: 400px;
+}
+#design5{
+	width: 900px;
+	height: 400px;
+}
+#design6{
+	width: 600px;
+	height: 400px;
+}
+#design66{
+	width: 400px;
+	height: 400px;
+}
+#design7{
+	width: 400px;
+	height: 400px;
+}
+#design8{
+	width: 700px;
+	height: 400px;
+}
+#design9{
+	width: 900px;
+	height: 400px;
+}
+#design10{
+	width: 700px;
+	height: 400px;
+}
+#design11{
+	width: 400px;
+	height: 400px;
+}
+#design12{
+	width: 500px;
+	height: 400px;
+}
+#design13{
+	width: 900px;
+	height: 400px;
+}
+#design14{
+	width: 280px;
+	height: 400px;
+}
+#design15{
+	width: 300px;
+	height: 400px;
+}
+#design16{
+	width: 600px;
+	height: 400px;
+}
+#design17{
+	width: 300px;
+	height: 500px;
+}
+#design18{
+	width: 400px;
+	height: 500px;
+}
+
+#writing{
+	font-size: 22px;
+	color: black;
+	font-weight: bold;
+}
+#writing a{
+	text-decoration: none;
+	color: black;
+}
+#writing a:hover{
+	text-decoration: none;
+	color: grey;
+}
+.form-row{
+	margin: 10px;
+}
+textarea{
+	width: 500px;
+	height: 150px;
+}
+#button2 button {
+	height: 50px;
+	width: 500px;
+	margin-left: 10px;
+}
